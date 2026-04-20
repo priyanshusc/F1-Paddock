@@ -30,7 +30,7 @@ export default function DriversStandings({ standings = [] }) {
         const teamName   = team.name ?? '';
         const delayMs    = 4500 + i * 80;
 
-        const isDark = ['#27F4D2','#FF8000','#64C4FF'].includes(teamColor);
+        const isDark = ['#27F4D2','#64C4FF'].includes(teamColor);
 
         return (
           <div
